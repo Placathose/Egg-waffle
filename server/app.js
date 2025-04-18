@@ -38,6 +38,7 @@ app.use('/api/reward', require('./routes/reward'));
 app.use('/api/quiz', require('./routes/quiz'));
 
 
+
 // Error handling
 app.use((err, req, res, next) => {
   res.status(err.status || 500);
