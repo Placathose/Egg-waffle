@@ -58,7 +58,14 @@
 - **Quiz Source**: Predefined pool of vocabulary questions (randomly selected)
 
 ---
+## 📡 API Used
+### Pokemon API
+https://pokeapi.co/
 
+### Deepseek API
+https://api-docs.deepseek.com/
+
+---
 ## 📡 API Endpoints
 
 ### `GET /api/quiz`
