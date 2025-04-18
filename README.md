@@ -6,11 +6,11 @@
 
 ## 🚀 Features
 
-- 🔐 Google Sign-In
-- 📆 Google Calendar API integration
+- 🔐 Google Sign-In (coming soon)
+- 📆 Google Calendar API integration (coming soon)
 - ⏱ Study session timer
 - 🧠 Quiz generator (Cantonese Jyutping)
-- 📊 Firebase-powered preference storage
+- 📊 MongoDB-powered preference storage
 - 🔎 Vocabulary-focused, gamified learning
 
 ---
