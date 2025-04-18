@@ -1,0 +1,27 @@
+extends layout
+
+block content
+  h1 All Study Summaries
+  
+  a(href="/summaries/add-summary") Add New Summary
+  
+  each summary in summaries
+    div.summary-card
+      h2= summary.date
+      p= summary.summary
+      
+      h3 Key Terms:
+      table
+        thead
+          tr
+            th English
+            th Jyutping
+            th Chinese Characters
+        tbody
+          each term in summary.keyTerms
+            tr
+              td= term.eng
+              td= term.jyutpin
+              td= term.character
+      
+      hr

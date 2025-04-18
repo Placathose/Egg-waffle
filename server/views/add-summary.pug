@@ -1,0 +1,29 @@
+extends layout
+
+block content
+  h1 Add New Study Summary
+  
+  form(action="/summaries/addSummary" method="POST")
+    div.form-group
+      label(for="date") Date:
+      input(type="text" name="date" id="date" placeholder="DD/MM/YY" required)
+    
+    div.form-group
+      label(for="summary") Summary:
+      textarea(name="summary" id="summary" rows="3" required)
+    
+    h2 Key Terms
+    
+    div.form-group
+      label(for="englishTerms") English (comma separated):
+      input(type="text" name="englishTerms" id="englishTerms" placeholder="Happy New Year, wish you prosperity" required)
+    
+    div.form-group
+      label(for="jyutpinTerms") Jyutping (comma separated):
+      input(type="text" name="jyutpinTerms" id="jyutpinTerms" placeholder="san1nin4 faai3lok6, zuk1 nei5 faan4wing4" required)
+    
+    div.form-group
+      label(for="characterTerms") Chinese Characters (comma separated):
+      input(type="text" name="characterTerms" id="characterTerms" placeholder="新年快樂, 祝你繁榮" required)
+    
+    button(type="submit") Save Summary

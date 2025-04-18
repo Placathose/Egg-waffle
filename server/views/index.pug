@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= data.message
+  
+  // Displaying JSON data
+  h2 Users List
+  ul
+    each user in data.users
+      li= `${user.name} is ${user.age} years old`
+  
+  pre= JSON.stringify(data, null, 2)

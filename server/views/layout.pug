@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title= (data && data.title) ? data.title : 'Default Title'
+    link(rel='stylesheet', href='/css/style.css')
+  body
+    header
+      nav
+        ul
+          li
+            a(href="/") Home
+          li
+            a(href="/summaries/getAllSummaries") View All Summaries
+          li
+            a(href="/summaries/add-summary") Add New Summary
+    
+    block content
