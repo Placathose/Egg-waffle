@@ -45,19 +45,16 @@
 - **Routing**: React Router
 - **Styling**: Tailwind CSS + DaisyUI
 - **State Management**: useState, useEffect, Context API
-- **OAuth**: Google Sign-In via Passport.js
-- **Timer**: JavaScript-based interval timer with pause/reset support
-- **Study Preferences**: Stored in Firebase Firestore (`userPreference` collection)
+- **Timer**: JavaScript-based interval timer
 
 ---
 
 ## 🔧 Backend
 
 - **Runtime**: Node.js with Express.js
-- **Authentication**: Passport.js (Google Strategy)
 - **Database**: MongoDB (Mongoose)
+- - **Study**: fetch pokemon random image once timer is done.
 - **Quiz Route**: `/api/quiz` generates Cantonese multiple-choice quizzes
-- **Calendar API**: Integrates with Google Calendar to schedule study sessions
 - **Quiz Source**: Predefined pool of vocabulary questions (randomly selected)
 
 ---
