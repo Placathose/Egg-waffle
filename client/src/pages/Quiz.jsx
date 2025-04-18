@@ -1,5 +1,5 @@
 // src/pages/Quiz.jsx
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 export const Quiz = () => {
   const [quiz, setQuiz] = useState([]);

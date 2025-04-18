@@ -19,18 +19,21 @@
 
 > Replace the image URLs below with actual screenshots of your app.
 
-### 🔐 Login Page  
-![Login Page](./images/login.png)
-
 ### 🏠 Dashboard  
-![Dashboard](./images/dashboard.png)
+![Dashboard](./images/summary-list.png)
+
+### 🔐 Add summary Form  
+![Add summary](./images/add-summary.png)
+
 
 ### ⏱ Study Session with Timer  
-![Study Timer](./images/study-timer.png)
+![Study Timer Page](./images/study-page.png)
 
 ### 🧠 Quiz Page  
-![Quiz Page](./images/quiz.png)
+![Quiz Page](./images/quiz-page.png)
 
+### 🧠 Quiz Page - with Question Generated
+![Question Generated from Deepseek](./images/question-gen.png)
 ---
 
 ## 🧩 Frontend
