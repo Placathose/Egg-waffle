@@ -56,7 +56,19 @@
 - - **Study**: fetch pokemon random image once timer is done.
 - **Quiz Route**: `/api/quiz` generates Cantonese multiple-choice quizzes
 - **Quiz Source**: Predefined pool of vocabulary questions (randomly selected)
+  
+---
 
+## 🔧 To run
+- clone repo
+- add env variables
+- open 2 terminal in vscode:
+- egg-waffle/server
+- npm install
+- egg-waffle/client
+- npm install
+- npm run dev (for both)
+  
 ---
 ## 📡 API Used
 ### Pokemon API
@@ -80,3 +92,5 @@ Returns a random 10-question multiple-choice quiz.
     "answer": "naam4zai2"
   }
 ]
+
+
