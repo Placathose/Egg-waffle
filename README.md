@@ -29,6 +29,9 @@
 ### ⏱ Study Session with Timer  
 ![Study Timer Page](./images/study-page.png)
 
+### ⏱ Pokemon fetch after a Study Session 
+![Study Timer Page with Pokemon](./images/pokemon-fetch.png)
+
 ### 🧠 Quiz Page  
 ![Quiz Page](./images/quiz-page.png)
 
