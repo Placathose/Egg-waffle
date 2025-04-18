@@ -32,8 +32,8 @@ app.use(cors({
 // Routes
 // app.use('/', indexRouter);
 app.use('/summaries', require('./routes/summaries'));
-app.use('/auth', require('./routes/auth'));
-app.use('/calendar', require('./routes/calendar'));
+// app.use('/auth', require('./routes/auth'));
+// app.use('/calendar', require('./routes/calendar'));
 app.use('/api/reward', require('./routes/reward'));
 app.use('/api/quiz', require('./routes/quiz'));
 
