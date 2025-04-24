@@ -15,6 +15,15 @@
 
 ---
 
+##  Challenges
+
+- 🔐 Google Sign-In (coming soon) & Google Calendar API integration (coming soon)
+- I had trouble implementing the google api because there was issue with authentication.
+
+- ⏱ Study session timer
+- Instead I implemented a study session timer that rewards a student with a pokemon image when they are able to study for a desired time
+
+
 ## 🖼 App Screenshots
 
 > Replace the image URLs below with actual screenshots of your app.
